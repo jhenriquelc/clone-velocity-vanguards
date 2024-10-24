@@ -9,7 +9,7 @@ Há restrições de permissões na branch principal que impedem que qualquer um 
 Para poder trazer seu código, é necessário atender certos requisitos:
 
 1. Um [pull request](https://docs.github.com/en/pull-requests) deve ser aberto.
-2. Esse pull request deve ser aprovado por pelo menos 2 colaboradores, com pelo menos um diferente do que abriu o PR.
+2. Esse pull request deve ser aprovado por pelo menos 2 colaboradores diferentes do que abriu a requisição.
 3. Quaisquer pedidos para mudanças ou abas de discussão devem estar resolvidas antes do pull.
 
 Qualquer commit adicionado no PR faz com que seja necessária uma nova aprovação.
