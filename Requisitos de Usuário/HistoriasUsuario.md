@@ -1,47 +1,15 @@
+# 1. Histórias de Usuários
 
-# 1. História de Usuário
+A tabela a seguir contém as histórias de usuários elicitados
 
-A Tabela 3 a seguir contém as Histórias de Usuárias elicitadas. 
 
-<table>
-    <thead>
-        <tr style="background-color: purple; color: white" >
-            <th style="border-style:solid;border-width:1px;text-align:center">ID</th>
-            <th style="border-style:solid;border-width:1px;text-align:center">História de Usuário</th>
-            <th style="border-style:solid;border-width:1px;text-align:center">Critérios de aceitação</th>
-            <th style="border-style:solid;border-width:1px;text-align:center">Prioridade</th>
-            <th style="border-style:solid;border-width:1px;text-align:center">RF/RNF relacionado</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <span id="ustory-01"></span>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1">US01</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1">Eu, como usuário regular, quero poder assitir vídeos para meu entreterimento</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1"><ol><li>Ao entrar no aplicativo o vídeo já deve aparecer na página inicial</li><li> A tela do vídeo deve estar maximizada na tela do celular</li><li>Os vídeos devem aparecer em sequência</li></ol></td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF07</td>
-        </tr>
-        <tr>
-            <span id="ustory-01"></span>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1">US02</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1">Eu, como usuário regular, desejo ter um perfil para interagir com outros na plataforma</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1"><ol><li>As informações do usuário devem estar evidentes</li><li> O perfil pode ser privado ou público</li></ol></td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Baixa </td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF10</td>
-        </tr>
-        <tr>
-            <span id="ustory-01"></span>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1">US03</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1">Eu,como usuário regular, desejo acessar os outros perfis existentes para ver o conteúdo deles</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="1"><ol><li>As informações do usuário devem estar evidentes aos visitantes</li><li> Os vídeos postados devem aparecer ao entrar no perfil para que seja possível seu acesso</li></ol></td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Média</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">-</td>
-        </tr>
-</table>
-
-<div style="text-align: center">
-<p>Tabela 3: História de Usuário</p>
-</div>
-
-## 5. Referências bibliográficas
+| ID | História | Critérios de aceitação | Prioridade | RF/RNF relacionado |
+|----|-------|-------|------|----|
+| US01 | Eu, como cliente, desejo poder filtrar os imóveis por preço. | 1. Uma barra com valor máximo e mínimo. <br> 2. Filtragem sem necessidade de ser redirecionado a outra página. <br> 3. Posicionamento e tamanho adequado, para que fique claro ao cliente que a funcionalidade existe, mas não chame muita atenção. | Média | RF06 |
+| US02 | Eu, como usuário, desejo poder facilmente editar descrições e valores dos imóveis sem a necessidade de repostagem. |  1. Botão para acessar uma interface de edição. <br> 2. Clareza nessa interface sobre quais campos estão sendo editados. | Baixa | |
+| US03 | Eu, como cliente, desejo poder contatar a equipe de venda para negociação. | 1. Seção da página do imóvel com formulário de contato. | Alta | RF07 |
+| US04 | Eu, como cliente gostaria que o site não fosse lento. | 1. Carregamento de página não pode demorar muito. <br> 2. O tempo de carregamento deve ser consistente. | Média | RNF02 |
+| US05 | Eu, como cliente, gostaria de poder marcar imóveis para acompanhar seu preço com o tempo. | 1. Guardar lista de páginas a serem acompanhadas para fácil acesso. | Baixa | |
+| US06 | Eu, como usuário, quero poder adicionar e remover imóveis com facilidade. | 1. Botão de remoção do imóvel (de preferência com confirmação). <br> 2. Página de criação de nova publicação. | Alto | | 
+| US06 | Eu, como cliente, gostaria de poder pesquisar por endereço. | 1. Caixa de pesquisa onde o cliente poderá indicar o endereço. |  Baixa | |
+| US07 | Eu, como cliente, quero poder filtrar imóveis por bairro. | 1. Caixa de pesquisa onde o cliente poderá indicar o imóvel. | Baixa | |
