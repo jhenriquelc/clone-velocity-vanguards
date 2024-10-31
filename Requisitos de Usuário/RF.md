@@ -4,12 +4,13 @@
 
 | ID   |                                 Requisito                                 | Prioridade | Requisitos Relacionados |
 | :--: | :-----------------------------------------------------------------------: | :--------: | :---------: |
-| RF01 |              O usuário deve poder personalizar seu ambiente.              |  Média     |    RF12     |
-| RF02 |           O usuário deve poder acessar o seu progresso no jogo.           |  Alta      |      RF25   |
-| RF03 |              O usuário deve poder acessar seu nível no jogo.              |  Baixa     |     -       |
-| RF04 |                 O usuário deve poder ver suas conquistas.                 |            |             |
-| RF05 |        O usuário deve poder escolher a dificuldade de suas lições.        |            |             |
-| RF06 |       O usuário deve poder determinar metas diárias a ser comprida.       |            |             |
+| RF01 |                    O usuário deve poder fazer login.                      |  Alta      |             |
+| RF02 |          O software deve permitir o usuário realizar CRUD.                |  Alta      |    US02     |
+| RF03 |                                                                           |  Média     |     --      |
+| RF04 |                                                                           |  Média     |             |
+| RF05 |        O software deve permitir o cliente pesquisar por imóveis.          |  Baixa     |             |
+| RF06 |           O software deve permitir o cliente filtrar imóveis.             |  Baixa     |             |
+| RF07 |          O software deve permitir o cliente entrar em contato.            |  Média     |    US04     |
 
 
 <div style="text-align: center">
