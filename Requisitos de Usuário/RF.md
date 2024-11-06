@@ -1,6 +1,6 @@
-# 1. Requisitos Funcionais
+# Requisitos Funcionais
 
-<p align="justify">A <i>Tabela 1</i> a seguir contém os Requisitos Funcionais (RF) elicitados utizando a técnica de Brainstorm.</p>
+A a seguir contém os **Requisitos Funcionais** (RF) elicitados utizando a técnica de Brainstorm
 
 | ID   |                                 Requisito                                 | Prioridade | Requisitos Relacionados |
 | :--: | :-----------------------------------------------------------------------: | :--------: | :---------: |
@@ -12,12 +12,8 @@
 | RF06 |           O software deve permitir o cliente filtrar imóveis.             |  Baixa     |             |
 | RF07 |          O software deve permitir o cliente entrar em contato.            |  Média     |    US04     |
 
+# Referências
 
-<div style="text-align: center">
-<p>Tabela 1: Requisitos Funcionais</p>
-</div>
-
-# 2. Referências
-
-
-<a href="../README.md">VOLTAR INÍCIO</a>
+* [Histórias de Usuários](HistoriasUsuario.md)
+* [Requisitos Não Funcionais](RNF.md)
+* [Início](../README.md)

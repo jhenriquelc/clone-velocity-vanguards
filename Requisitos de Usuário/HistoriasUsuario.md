@@ -1,7 +1,6 @@
-# 1. Histórias de Usuários
+# Histórias de Usuários
 
-A tabela a seguir contém as histórias de usuários elicitados
-
+A tabela a seguir contém as **Histórias de Usuários** (US) elicitados utilizando a técnica de Brainstorm.
 
 | ID | História | Critérios de aceitação | Prioridade | RF/RNF relacionado |
 |----|-------|-------|------|----|
@@ -13,3 +12,9 @@ A tabela a seguir contém as histórias de usuários elicitados
 | US06 | Como usuário, quero poder adicionar e remover imóveis com facilidade, para que as postagens não sejam muito difíceis. | 1. Botão de remoção do imóvel (de preferência com confirmação). <br> 2. Página de criação de nova publicação. | Alto | |
 | US06 | Como cliente, gostaria de poder pesquisar por endereço, para facilitar a busca. | 1. Caixa de pesquisa onde o cliente poderá indicar o endereço. |  Baixa | |
 | US07 | Como cliente, quero poder filtrar imóveis por bairro, para facilitar a busca. | 1. Caixa de pesquisa onde o cliente poderá indicar o imóvel. | Baixa | |
+
+# Referências
+
+* [Requisitos Funcionais](RF.md)
+* [Requisitos Não Funcionais](RNF.md)
+* [Início](../README.md)

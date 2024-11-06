@@ -1,6 +1,6 @@
-# 1. Requisitos Não Funcionais
+# Requisitos Não Funcionais
 
-A a seguir contém os **Requisitos Não Funcionais (RNF)** elicitados utizando a técnica de Brainstorm.
+A a seguir contém os **Requisitos Não Funcionais** (RNF) elicitados utizando a técnica de Brainstorm.
 
 |  ID   |                                 Requisito NF                              | Categoria/Tipo | Prioridade | Requisitos Relacionados |
 | :---: | :-----------------------------------------------------------------------: |:-------------: | :--------: | :-----------------: |
@@ -9,7 +9,8 @@ A a seguir contém os **Requisitos Não Funcionais (RNF)** elicitados utizando a
 | RNF03 | O sistema deve ser implementado na linguagem Svelte |  Organizacionais/Implementação | Baixa |  |
 | RNF04 | A base de dados interna deverá ser MySQL | Organizacionais/Implementação | Baixa | |
 
-# 2. Referências
+# Referências
 
 * [Histórias de Usuários](HistoriasUsuario.md)
 * [Requisitos Funcionais](RF.md)
+* [Início](../README.md)
