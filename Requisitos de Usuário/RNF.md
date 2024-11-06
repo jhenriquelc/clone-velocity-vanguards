@@ -1,17 +1,15 @@
 # 1. Requisitos Não Funcionais
 
-<p align="justify">A <i>Tabela 2</i> a seguir contém os <b>Requisitos Não Funcionais (RNF)</b> elicitados utizando a técnica de Brainstorm .</p>
+A a seguir contém os **Requisitos Não Funcionais (RNF)** elicitados utizando a técnica de Brainstorm.
 
-| ID   |                                 Requisito NF                              | Categoria/Tipo | Prioridade | Requisitos Relacionados |
-| :--: | :-----------------------------------------------------------------------: |:-------------: | :--------: | :-----------------: |
-| RF01 |  O usuário deve ser capaz de finalizar a compra com menos de 3 cliques na página. | Produto/Usabilidade               |Média       |    RNF12             |
-| RF02 |  O executável do sistema não deve ser superior a 512 Kbytes.     |  Produto/eficiência     |Alta        |    RF8              |
-| RF03 |  O sistema deve ser implementado na linguagem Python.              |  Organizacionais/Implementação       |Baixa       |     -               |
-
-<div style="text-align: center">
-<p>Tabela 2: Requisitos Não Funcionais</p>
-</div>
+|  ID   |                                 Requisito NF                              | Categoria/Tipo | Prioridade | Requisitos Relacionados |
+| :---: | :-----------------------------------------------------------------------: |:-------------: | :--------: | :-----------------: |
+| RNF01 | O cliente deve ser capaz de demonstrar interesse num imóvel em menos de 3 cliques na página | Produto/Usabilidade | Média | RNF12 |
+| RNF02 | A página inicial deve carregar em menos de 400 ms | Produto/eficiência | Alta | US04 |
+| RNF03 | O sistema deve ser implementado na linguagem Svelte |  Organizacionais/Implementação | Baixa |  |
+| RNF04 | A base de dados interna deverá ser MySQL | Organizacionais/Implementação | Baixa | |
 
 # 2. Referências
 
-<a href="../README.md">VOLTAR INÍCIO</a>
+* [Histórias de Usuários](HistoriasUsuario.md)
+* [Requisitos Funcionais](RF.md)
