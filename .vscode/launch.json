@@ -1,0 +1,14 @@
+{
+    // https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node-terminal",
+            "preLaunchTask": "pnpm-install",
+            "command": "pnpm dev",
+            "name": "Iniciar Site",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/Site",
+        },
+    ]
+}

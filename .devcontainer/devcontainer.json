@@ -1,0 +1,26 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Site Imobilária Vanguard",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+"remoteUser": "node",
+"features": {
+	"ghcr.io/devcontainers-extra/features/pnpm:2": {},
+	"ghcr.io/devcontainers-extra/features/prettier:1": {}
+},
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"1YiB.svelte-bundle",
+			"svelte.svelte-vscode",
+			"ardenivanov.svelte-intellisense",
+			"fivethree.vscode-svelte-snippets",
+			"pivaszbs.svelte-autoimport",
+			"esbenp.prettier-vscode",
+			"yzhang.markdown-all-in-one",
+			"DavidAnson.vscode-markdownlint"
+		]
+	}
+}
+}
