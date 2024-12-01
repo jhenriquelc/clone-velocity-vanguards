@@ -4,6 +4,12 @@
 
 ### Prerequisitos
 
+#### Codespaces
+
+* Um navegador logado na sua conta do GitHub
+
+#### Local
+
 Ter as ferramentas a seguir instaladas e acessíveis pelo terminal:
 
 * [Node.js v22](https://nodejs.org/)
@@ -11,18 +17,27 @@ Ter as ferramentas a seguir instaladas e acessíveis pelo terminal:
 
 ### Rodar ambiente
 
-Num terminal, entre na pasta do site, rode `pnpm install`, então, para iniciar um servidor de desenvolvimento:
+#### Codespaces
 
-```bash
-pnpm run dev
+Na página do repositório, siga a sequência de botões a seguir:
+Botão verde "Código" → Seção "Codespaces" → Selecione um Codespace existente ou crie um novo
 
-# ou inicie o servidor e abra o app em uma nova aba do seu navegador padrão
-pnpm run dev -- --open
-```
+Você será redirecionado para um contêiner pré-configurado para desenvolvimento do nosso projeto github.dev.
+
+Para iniciar o site, selecione "Executar e Depurar" na barra lateral, e rode o perfil "Iniciar Site".
+
+Serão instaladas as dependências e então aparecerá um link no terminal que te leva a uma visualização do site que atualiza em tempo real conforme você salva suas alterações no código. Para acessar o link, use Ctrl+clique.
+
+#### Local
+
+Num terminal, entre na pasta do site e execute `pnpm install` para baixar as dependências do projeto.
+Para rodar, ainda na pasta do site, rode `pnpm run dev` para executar um servidor de desenvolvimento que atualiza em tempo real conforme você salva suas alterações no código. Acesse-o pelo link exibido nos logs do servidor.
+
+Se você utilizar VS Code, apenas inicie o perfil de depuração configurado.
 
 ## Compilando
 
-Para criar uma versão de produção do app, use:
+Para criar uma versão de produção do app, use, na pasta do site:
 
 ```bash
 pnpm run build
