@@ -1,3 +1,6 @@
+<img alt="Emblema Velocity Vanguards" src="https://github.com/user-attachments/assets/e88614d0-1191-444c-bc06-ac01569fc25d#gh-light-mode-only" align="left" width="100px">
+<img alt="Emblema Velocity Vanguards" src="https://github.com/user-attachments/assets/82313645-a022-4867-910e-b8b1a05f9754#gh-dark-mode-only" align="left" width="100px">
+
 # VelocityVanguards-2024.2
 
 Grupo: Velocity Vanguards

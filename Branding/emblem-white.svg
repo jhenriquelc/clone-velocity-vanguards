@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1500" width="512px" height="512px" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:export>
+      <bx:file format="png" path="emblem-raster.png"/>
+    </bx:export>
+  </defs>
+  <path d="M 200.002 300 L 357.145 414.286 L 750.002 1200 L 1142.859 414.286 L 1300.002 300 L 750.002 1400 L 200.002 300 Z M 750.002 700 L 1142.859 414.286 L 1300.002 100 L 750.002 500 L 200.002 100 L 357.145 414.286 L 750.002 700 Z" style="stroke: rgb(255, 255, 255); stroke-width: 0px; stroke-opacity: 0; fill-rule: nonzero; paint-order: fill; fill: rgb(255, 255, 255);">
+    <title>Seta</title>
+  </path>
+</svg>
