@@ -1,10 +1,10 @@
 {
-    "recommendations": [
-        "fivethree.vscode-svelte-snippets",
-        "svelte.svelte-vscode",
-        "pivaszbs.svelte-autoimport",
-        "ardenivanov.svelte-intellisense",
-        "esbenp.prettier-vscode",
-        "yzhang.markdown-all-in-one"
-    ]
+  "recommendations": [
+    "fivethree.vscode-svelte-snippets",
+    "svelte.svelte-vscode",
+    "pivaszbs.svelte-autoimport",
+    "ardenivanov.svelte-intellisense",
+    "esbenp.prettier-vscode",
+    "yzhang.markdown-all-in-one"
+  ]
 }
