@@ -32,6 +32,11 @@ Você pode ver uma pré-visualização da versão de produção com `pnpm run pr
 
 > Para dar deploy no app, será necessário o uso de um [adaptador](https://svelte.dev/docs/kit/adapters) para o ambiente desejado.
 
+## Bibliotecas utilizadas
+
+* [tailwindcss](https://tailwindcss.com/docs/): classes css com estilos comuns prontos
+* [flowbite-svelte](https://flowbite-svelte.com/docs/components/accordion): componentes prontos para Svelte que fazem uso de tailwindcss
+
 ## Navegação
 
 [Voltar para a tela inicial](../README.md)
