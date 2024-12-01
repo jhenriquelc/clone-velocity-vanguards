@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2330px" height="1000px" viewBox="0 0 2330 1000" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:guide x="2230" y="735.105" angle="-180"/>
+  </defs>
+  <path d="M 100 223.077 L 196.703 293.407 L 438.462 776.923 L 680.22 293.407 L 776.923 223.077 L 438.462 900 L 100 223.077 Z M 438.462 469.231 L 680.22 293.407 L 776.923 100 L 438.462 346.154 L 100 100 L 196.703 293.407 L 438.462 469.231 Z" style="stroke: rgb(255, 255, 255); stroke-width: 0px; stroke-opacity: 0; fill-rule: nonzero; paint-order: fill;">
+    <title>Seta</title>
+  </path>
+  <text style="font-family: Poppins; font-size: 330px; font-weight: 600; white-space: pre;" x="600" y="784.111"><title>Vanguards</title>anguards</text>
+  <text style="font-family: Poppins; font-size: 330px; font-weight: 600; white-space: pre;" x="776.923" y="447.667"><title>Velocity</title>elocity</text>
+</svg>
