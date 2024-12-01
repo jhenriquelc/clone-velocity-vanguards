@@ -15,7 +15,7 @@ Ano/Semestre: 2024/2
 
 ## Descrição do Projeto
 
-Site de imobiliária para os moraradores da cidade de Cornélio Procópio que tem como principais funcionalidades: uma landing page com possibilidade de pesquisa e área "logada" que permite adicionar novos imóveis na página principal.
+Site de imobiliária para os moradores da cidade de Cornélio Procópio, tendo como principais funcionalidades: uma página pública com funçao de pesquisa imóveis e informações de contato com a empresa; e uma área restrita a funcionários que permite gerenciar os imóveis listados e as informações de contato com o escritório.
 
 ## Documentos
 
