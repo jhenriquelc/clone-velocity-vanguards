@@ -5,10 +5,10 @@ name: Verificar build do site
 on:
   push:
     paths:
-      - "Site/*"
+      - "Site/**"
   pull_request:
     paths:
-      - "Site/*"
+      - "Site/**"
 
 jobs:
   build:
