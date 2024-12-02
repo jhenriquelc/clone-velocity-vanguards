@@ -6,9 +6,11 @@ on:
   push:
     paths:
       - "Site/**"
+      - ".github/workflows/verificar-build-site.yml"
   pull_request:
     paths:
       - "Site/**"
+      - ".github/workflows/verificar-build-site.yml"
 
 jobs:
   build:
