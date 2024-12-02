@@ -29,6 +29,7 @@ Site de imobiliária para os moraradores da cidade de Cornélio Procópio que te
 ### Gerenciais
 
 - [Guia de Contribuição](CONTRIBUTING.md)
+- [Guia de Desenvolvimento do Site](Site/README.md)
 
 ### Requisitos de Usuário
 
