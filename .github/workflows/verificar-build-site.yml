@@ -30,8 +30,6 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-        cache: "pnpm"
-        cache-dependency-path: "${{ github.workspace }}/Site/pnpm-lock.yaml"
     - name: Build release
       working-directory: "${{ github.workspace }}/Site"
       run: pnpm run build
