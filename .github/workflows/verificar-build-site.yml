@@ -1,5 +1,3 @@
-# Verificar se o site é buildado com sucesso
-
 name: Verificar build do site
 
 on:
@@ -17,10 +15,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [22.x]
-
     steps:
     - name: Obter cópia do repositório
       uses: actions/checkout@v4
@@ -28,12 +22,12 @@ jobs:
     - name: Usar pNpm
       uses: pnpm/action-setup@v4
       with:
-        version: "latest"
+        version: 9
     
-    - name: Usar Node.js ${{ matrix.node-version }}
+    - name: Usar Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 22.x
     
     - name: Obter caminho para armazenagem do pNpm
       id: pnpm-cache
