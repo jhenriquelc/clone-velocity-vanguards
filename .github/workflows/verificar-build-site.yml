@@ -20,11 +20,15 @@ jobs:
     strategy:
       matrix:
         node-version: [22.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - name: Obter cópia do repositório
       uses: actions/checkout@v4.2.2
+
+    - name: Usar pNpm
+      uses: pnpm/action-setup@v4.0.0
+      with:
+        version: "latest"
     
     - name: Usar Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
@@ -32,11 +36,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: "pnpm"
         cache-dependency-path: "Site/pnpm-lock.json"
-
-    - name: Usar pNpm
-      uses: pnpm/action-setup@v4.0.0
-      with:
-        version: "latest"
       
     - name: Instalar dependências
       working-directory: "Site"
