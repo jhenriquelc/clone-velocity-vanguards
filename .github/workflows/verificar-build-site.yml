@@ -34,8 +34,8 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-        cache: "pnpm"
-        cache-dependency-path: "Site/pnpm-lock.json"
+        # cache: "pnpm"
+        # cache-dependency-path: "Site/pnpm-lock.json"
       
     - name: Instalar dependências
       working-directory: "Site"
