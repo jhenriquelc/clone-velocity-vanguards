@@ -23,58 +23,25 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v4.2.2
+    - name: Obter cópia do repositório
+      uses: actions/checkout@v4.2.2
     
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Usar Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-      
-    - uses: pnpm/action-setup@v4.0.0
+        cache: "pnpm"
+        cache-dependency-path: "Site/pnpm-lock.json"
+
+    - name: Usar pNpm
+      uses: pnpm/action-setup@v4.0.0
       with:
         version: "latest"
       
-    - name: Build release
+    - name: Instalar dependências
       working-directory: "Site"
       run: pnpm run build
-    - uses: actions/checkout@v4
-
-
-    # steps:
-    #   - name: Checkout repository
-    #     uses: actions/checkout@v3
-
-    #   - name: Setup Node
-    #     uses: actions/setup-node@v3
-    #     with:
-    #       node-version: 16
-
-    #   - name: Install pnpm
-    #     uses: pnpm/action-setup@v2
-    #     id: pnpm-install
-    #     with:
-    #       version: 7
-    #       run_install: false
-
-    #   - name: Get pnpm store directory
-    #     id: pnpm-cache
-    #     run: |
-    #       echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
-    #   - name: Setup pnpm cache
-    #     uses: actions/cache@v3
-    #     with:
-    #       path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
-    #       key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-    #       restore-keys: |
-    #         ${{ runner.os }}-pnpm-store-
-    #   - name: Install dependencies
-    #     run: pnpm install
-
-    #   - name: Build project
-    #     run: pnpm run build
-
-    #   - name: Upload production-ready build files
-    #     uses: actions/upload-artifact@v3
-    #     with:
-    #       name: production-files
-    #       path: ./dist # 👈 This is the path to the production-ready build files, change to ./build if it is your case.
+    
+    - name: Buildar versão de produção
+      working-directory: "Site"
+      run: pnpm run build
