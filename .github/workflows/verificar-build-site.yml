@@ -34,8 +34,13 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-
-    - name: Setup pnpm cache
+    
+    - name: Obter caminho para armazenagem do pNpm
+      id: pnpm-cache
+      run: |
+        echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
+      
+    - name: Inicializar cache do pNpm
       uses: actions/cache@v3
       with:
         path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
