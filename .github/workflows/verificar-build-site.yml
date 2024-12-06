@@ -39,7 +39,7 @@ jobs:
       
     - name: Instalar dependências
       working-directory: "Site"
-      run: pnpm run build
+      run: pnpm install
     
     - name: Buildar versão de produção
       working-directory: "Site"
